@@ -2,8 +2,8 @@
 <html>
     <head>
         {% include metadata.html %}
-        {% if page.title %}
-        <title>Hypest &laquo; {{ page.title }}</title>
+        {% if page.title != null and page.title != 'Hypest' %}
+        <title>Hypest &ndash; {{ page.title }}</title>
         {% else %}
         <title>Hypest</title>
         {% endif %}

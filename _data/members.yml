@@ -1,0 +1,54 @@
+- nickname: BestTeaMaker
+  name: Alex
+  timezone: EST
+  roles: [to]
+
+- nickname: Rapptz
+  name: Danny
+  timezone: EST
+  roles: [to]
+
+- nickname: yuai
+  name: Brandon
+  timezone: EST
+  roles: [to]
+
+- nickname: Electric91
+  name: Zein
+  timezone: CET
+  roles: [to]
+
+- nickname: BBNikfaces
+  name: Nicholas
+  timezone: PHT (UTC+8)
+  roles: [to]
+
+- nickname: Regralht
+  name: N/A
+  timezone: EST
+  roles: [to]
+
+- nickname: AnDEh
+  name: Andy
+  timezone: WET
+  roles: [to]
+
+- nickname: Gdom
+  name: N/A
+  timezone: N/A
+  roles: [to]
+
+- nickname: Bijou
+  name: N/A
+  timezone: AEST
+  roles: [to]
+
+- nickname: dietinghippo
+  name: N/A
+  timezone: PST
+  roles: [streamer]
+
+- nickname: Lanzoma
+  name: Andres
+  timezone: PST
+  roles: [networker]

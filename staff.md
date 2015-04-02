@@ -13,25 +13,28 @@ about these members then you've come to the right place.
 
 Nickname | Name | Time Zone
 :--------|:-----|:---------
-BestTeaMaker | Alex | EST
-Rapptz | Danny | EST
-yuai | Brandon | EST
-Electric91 | Zein | CET
-BBNikfaces | Nicholas | PHT (UTC+8)
-Regralht | N/A | EST
-AnDEh | Andy | WET
-Gdom | N/A | N/A
-Bijou | N/A | AEST
+{% for member in site.data.members }
+{% if member.role contains 'to' %}
+{{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
+{% endif %}
+{% endfor %}
 
 #### Streamers
 
 Nickname | Name | Time Zone
 :--------|:-----|:---------
-dietinghippo | N/A | PST
+{% for member in site.data.members }
+{% if member.role contains 'streamer' %}
+{{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
+{% endif %}
+{% endfor %}
 
 #### Networkers
 
 Nickname | Name | Time Zone
 :--------|:-----|:---------
-Lanzoma | Andres | PST
-
+{% for member in site.data.members }
+{% if member.role contains 'networker' %}
+{{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
+{% endif %}
+{% endfor %}

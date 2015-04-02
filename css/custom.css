@@ -1,0 +1,29 @@
+/* footer related CSS */
+footer {
+  padding: 1.1429em;
+  background: none repeat scroll 0% 0% #FAFAFA;
+  font-size: 87.5%;
+  border-top: 1px solid #EEE;
+  margin-top: 3.4286em;
+}
+
+footer .copyright {
+  text-align: center;
+  margin: 0px;
+}
+
+/* header related CSS */
+
+header {
+  margin: 0px;
+  color: #333;
+  text-align: center;
+  padding: 2.5em 2em 0px;
+  border-bottom: 1px solid #EEE;
+}
+
+header h2 {
+  color: #CCC;
+  padding: 0px;
+  margin-top: 0px;
+}

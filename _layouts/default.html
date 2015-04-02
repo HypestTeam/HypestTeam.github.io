@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include metadata.html %}
+        {% if page.title %}
+        <title>Hypest &laquo; {{ page.title }}</title>
+        {% else %}
+        <title>Hypest</title>
+        {% endif %}
+    </head>
+    <body>
+        <div class="container">
+            {% include navbar.html %}
+            <div id="main">
+                <header>
+                    {% if page.title %}
+                    <h1>{{ page.title }}</h1>
+                    {% endif %}
+                    {% if page.subtitle %}
+                    <h2>{{ page.subtitle %}}</h2>
+                    {% endif %}
+                </header>
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+        <script src="/js/ui.js"></script>
+    </body>
+</html>

@@ -14,7 +14,7 @@ about these members then you've come to the right place.
 Nickname | Name | Time Zone
 :--------|:-----|:---------
 {% for member in site.data.members %}
-{% if member.role contains 'to' %}
+{% if member.roles contains 'to' %}
 {{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
 {% endif %}
 {% endfor %}
@@ -24,7 +24,7 @@ Nickname | Name | Time Zone
 Nickname | Name | Time Zone
 :--------|:-----|:---------
 {% for member in site.data.members %}
-{% if member.role contains 'streamer' %}
+{% if member.roles contains 'streamer' %}
 {{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
 {% endif %}
 {% endfor %}
@@ -34,7 +34,7 @@ Nickname | Name | Time Zone
 Nickname | Name | Time Zone
 :--------|:-----|:---------
 {% for member in site.data.members %}
-{% if member.role contains 'networker' %}
+{% if member.roles contains 'networker' %}
 {{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
 {% endif %}
 {% endfor %}

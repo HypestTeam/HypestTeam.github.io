@@ -5,6 +5,9 @@ footer {
   font-size: 87.5%;
   border-top: 1px solid #EEE;
   margin-top: 3.4286em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 footer .copyright {

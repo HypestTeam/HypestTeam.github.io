@@ -37,3 +37,38 @@ header h2 {
   margin-top: 0px;
   font-size: 1.8em;
 }
+
+/* blog related CSS */
+.post-author {
+  text-decoration: none;
+  color: #3D92C9;
+}
+
+.post {
+  padding-bottom: 2em;
+}
+
+/* reset bottom border */
+.post > header {
+  border-bottom: 0px;
+}
+
+.post-title {
+  border-bottom: 1px solid #EEE;
+}
+
+.post-meta {
+  color: #999;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.post-category {
+  margin: 0px 0.1em;
+  padding: 0.3em 1em;
+  color: #FFF;
+  background: none repeat scroll 0% 0% #DF2D4F;
+  font-size: 80%;
+}
+

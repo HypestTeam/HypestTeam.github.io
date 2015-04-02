@@ -197,9 +197,9 @@ small screens.
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*
-Hides the menu at `48em`, but modify this based on your app's needs.
+Used to be 48em
 */
-@media (min-width: 750px) {
+@media (min-width: 58em) {
 
     .header,
     .content {
@@ -226,7 +226,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 58em) {
     /* Only apply this when the window is small. Otherwise, the following
     case results in extra padding on the left:
         * Make the window small.

@@ -13,7 +13,7 @@ about these members then you've come to the right place.
 
 Nickname | Name | Time Zone
 :--------|:-----|:---------
-{% for member in site.data.members }
+{% for member in site.data.members %}
 {% if member.role contains 'to' %}
 {{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
 {% endif %}
@@ -23,7 +23,7 @@ Nickname | Name | Time Zone
 
 Nickname | Name | Time Zone
 :--------|:-----|:---------
-{% for member in site.data.members }
+{% for member in site.data.members %}
 {% if member.role contains 'streamer' %}
 {{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
 {% endif %}
@@ -33,7 +33,7 @@ Nickname | Name | Time Zone
 
 Nickname | Name | Time Zone
 :--------|:-----|:---------
-{% for member in site.data.members }
+{% for member in site.data.members %}
 {% if member.role contains 'networker' %}
 {{ member.nickname }} | {{ member.name }} | {{ member.timezone }}
 {% endif %}

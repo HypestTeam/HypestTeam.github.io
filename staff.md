@@ -18,7 +18,7 @@ Rapptz | Danny | EST
 yuai | Brandon | EST
 Electric91 | Zein | CET
 BBNikfaces | Nicholas | PHT (UTC+8)
-Regralht N/A | EST
+Regralht | N/A | EST
 AnDEh | Andy | WET
 Gdom | N/A | N/A
 Bijou | N/A | AEST

@@ -52,3 +52,53 @@
   name: Andres
   timezone: PST
   roles: [networker]
+
+- nickname: cynkrode
+  name: N/A
+  timezone: N/A
+  roles: [to]
+  
+  - nickname: inf1nite
+  name: Dane
+  timezone: EST
+  roles: [to]
+  
+  - nickname: ultima
+  name: N/A
+  timezone: PST
+  roles: [to, streamer]
+  
+  - nickname: Blurry Lobster
+  name: N/A
+  timezone: N/A 
+  roles: [art]
+  
+    - nickname: Desslochbro
+  name: N/A
+  timezone: N/A
+  roles: [to]
+  
+    - nickname: Doqtor Kirby
+  name: N/A
+  timezone: N/A
+  roles: [streamer]
+  
+    - nickname: FlashTheSentry
+  name: Jacob
+  timezone: N/A
+  roles: [to]
+  
+    - nickname: RocketClauncher
+  name: N/A
+  timezone: N/A
+  roles: [art]
+  
+    - nickname: Thomasletson64
+  name: Thomas
+  timezone: N/A
+  roles: [to]
+  
+    - nickname: metalmonstar
+  name: N/A
+  timezone: N/A
+  roles: [to]

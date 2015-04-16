@@ -55,6 +55,29 @@ about these members then you've come to the right place.</p>
     </tbody>
 </table>
 
+<h4>Artists</h4>
+
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Nickname</th>
+            <th style="text-align: left">Name</th>
+            <th style="text-align: left">Time Zone</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for member in site.data.members %}
+        {% if member.roles contains 'artist' %}
+        <tr>
+            <td>{{ member.nickname }}</td>
+            <td>{{ member.name }}</td>
+            <td>{{ member.timezone }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+    </tbody>
+</table>
+
 <h4>Networkers</h4>
 
 <table>

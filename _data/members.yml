@@ -58,47 +58,47 @@
   timezone: N/A
   roles: [to]
   
-  - nickname: inf1nite
+- nickname: inf1nite
   name: Dane
   timezone: EST
   roles: [to]
   
-  - nickname: ultima
+- nickname: ultima
   name: N/A
   timezone: PST
   roles: [to, streamer]
   
-  - nickname: Blurry Lobster
+- nickname: Blurry Lobster
   name: N/A
   timezone: N/A 
-  roles: [art]
+  roles: [artist]
   
-    - nickname: Desslochbro
+- nickname: Desslochbro
   name: N/A
   timezone: N/A
   roles: [to]
   
-    - nickname: Doqtor Kirby
+- nickname: Doqtor Kirby
   name: N/A
   timezone: N/A
   roles: [streamer]
   
-    - nickname: FlashTheSentry
+- nickname: FlashTheSentry
   name: Jacob
   timezone: N/A
   roles: [to]
   
-    - nickname: RocketClauncher
+- nickname: RocketClauncher
   name: N/A
   timezone: N/A
-  roles: [art]
+  roles: [artist]
   
-    - nickname: Thomasletson64
+- nickname: Thomasletson64
   name: Thomas
   timezone: N/A
   roles: [to]
   
-    - nickname: metalmonstar
+- nickname: metalmonstar
   name: N/A
   timezone: N/A
   roles: [to]
